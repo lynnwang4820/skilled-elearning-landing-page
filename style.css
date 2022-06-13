@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root{
+    --white:#FFFFFF;
+    --light-blue:#F0F1FF;
+    --grey-blue:#666CA3;
+    --dark-blue:#13183F;
+    --grey:#83869A;
+    --hot-pink:#F74780;
+    --pink:#FFA7C3;
+    --orange-pink:linear-gradient(#FF6F48,#F02AA6);
+    --blue-pink:linear-gradient(#4851FF,#F02AA6);
+
+}
+
+body{
+    background: linear-gradient(var(--white),var(--light-blue));
+}
+
+h1{
+    font-weight: bold;
+    size:56px;
+}
+
+h3{
+    font-weight:600;
+    size:32px;
+}
+
+section{
+    padding:0 20%;
+}
+
+p{
+    color:var(--grey);
+    margin:5% 0;
+}
+
+.container-fluid{
+    padding:0;
+    box-sizing:border-box;
+}
+
+.btn{
+    border:none;
+    color:var(--white);
+    border-radius:2.5em;
+    padding:9px 25px; 
+    font-weight:200;
+    font-size:15px;
+}
+
+.btn:hover{
+    color:var(--white);
+    filter:opacity(60%);
+}
+
+/*header and intro section*/
+
+
+
+.navbar-brand{
+    font-weight:800;
+    font-size:40px;
+}
+
+
+.h-btn{
+    background: var(--dark-blue);
+ 
+}
+
+.sec-1{
+    width:79%;
+    margin-top:20%;
+}
+
+.head-pic{
+    width:170%;
+    height:auto;
+    position:relative;
+    top:-35%;
+    left:15%;
+    margin-bottom:-35%;
+    
+}
+
+.tablet-pic{
+    position:relative;
+    right:15%;
+}
+
+.head-sec{
+    overflow: hidden;
+}
+
+.intro-btn{
+    background:var(--orange-pink)
+}
+
+/*cards section*/
+
+.my-col{
+    margin:4% 0;
+}
+
+.card{
+    margin:auto;
+    height:100%;
+    width:100%;
+    padding:3%;
+}
+
+.first-card{
+    background:var(--orange-pink);
+    
+}
+
+.first-cbody{
+    color:var(--white);
+    width:80%;
+}
+
+.card-title{
+    font-weight:bold;
+    size:24px;
+}
+
+.card-link{
+    text-decoration: none;
+    color:var(--hot-pink)
+}
+
+.card-link:hover{
+    color:var(--pink);
+}
+
+.card-icon{
+    position:relative;
+    top:-60px;
+    margin-bottom:-45px;
+}
+/*footer section*/
+
+#footer{
+    background:var(--dark-blue);
+}
+
+.f-bar{
+ padding:1.5% 0;
+}
+
+.f-brand{
+    color:var(--white);
+}
+.f-btn{
+    background:var(--blue-pink);
+}
+
+
+/*media*/
+
+@media (max-width:1000px){
+    section{
+        padding:0 3.5%;
+    }
+    .head-pic{
+        width:200%;
+        position:relative;
+        top:-35%;
+        left:0%;
+        margin-bottom:-40%;
+
+    }
+    .sec-1{
+        width:100%;
+        margin-top:20%;
+    }
+    
+}
+
+@media (max-width: 755px){
+    .head-pic{
+        width:100%;
+        position:relative;
+        top:0%;
+        left:0%;
+        margin-bottom:-10%;
+
+    }
+}
